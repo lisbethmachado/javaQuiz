@@ -32,7 +32,7 @@ function setTime() {
  
       clearInterval(timerInterval);
       h1El.textContent = "Time's Up!"
-      h1El.textContent = "Don't seat it. You did great!"
+      h2El.textContent = "Don't sweat it. You did great!"
     }
 
   }, 1000);
