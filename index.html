@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>javaQuiz - How well do you script?</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
+
 <body>
-    <div id="container" class="hidden">
-    <h1 class="time text-align:center"><h1>JavaScript is ______ Language.</h1><br>
-        <form id="answers">
-            <input type="radio" name="choice" value="Scripting"> Scripting
-            <input type="radio" name="choice" value="Programming"> Programming
-            <input type="radio" name="choice" value="Application"> Application
-            <input type="radio" name="choice" value="None of These"> None of These
-           </form>
-           <button onclick="submitAnswer()">Submit Answer</button>
+    <div class="container">
+        <div id="start-page" class="start">
+            <h1>Welcome to javaQuiz!</h1>
+            <p>
+                This is a timed quiz to gauge your knowledge on Javascript. You will have 20 seconds to read each
+                question and select the correct choice. When you are ready, click on the 'Start' button to begin. Good
+                luck!
+            </p>
+            <button id="start-button">Start</button>
+        </div>
     </div>
-    <script src="assets/script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
+
 </html>

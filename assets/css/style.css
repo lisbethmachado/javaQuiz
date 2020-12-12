@@ -1,0 +1,37 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  a {
+    color: #d660a5;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  a:hover {
+    color: #f58cd5;
+  }
+
+  .container {
+    margin: 120px auto 0 auto;
+    max-width: 400px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  button {
+    display: inline-block;
+    margin: 5px;
+    background-color: #d660a5;
+    border-radius: 5px;
+    color: #000000;
+    border: 0;
+    text-align: center;
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: #f58cd5;
+  }

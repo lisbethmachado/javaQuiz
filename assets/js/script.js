@@ -1,21 +1,21 @@
-var body = document.body;
+// var body = document.body;
 
-var h1El = document.createElement("h1");
-h1El.textContent = "Welcome to javaQuiz!";
-body.appendChild(h1El);
-h1El.setAttribute("style", "width:100%; text-align:center;");
+// var h1El = document.createElement("h1");
+// h1El.textContent = "Welcome to javaQuiz!";
+// body.appendChild(h1El);
+// h1El.setAttribute("style", "width:100%; text-align:center;");
 
-var h2El = document.createElement("h2");
-h2El.textContent = "This is a timed quiz to gauge your knowledge on Javascript. You will have 20 seconds to read each question and select the correct choice. When you are ready to begin, click on the 'Ready!' button to display the first question and start the timer. Good luck!";
-body.appendChild(h2El);
-h2El.setAttribute("style", "width:100%; text-align:center;");
+// var h2El = document.createElement("h2");
+// h2El.textContent = "This is a timed quiz to gauge your knowledge on Javascript. You will have 20 seconds to read each question and select the correct choice. When you are ready to begin, click on the 'Ready!' button to display the first question and start the timer. Good luck!";
+// body.appendChild(h2El);
+// h2El.setAttribute("style", "width:100%; text-align:center;");
 
-var timeEl = document.querySelector(".time");
-var goBtn = document.createElement("main");
+// var timeEl = document.querySelector(".time");
+// var goBtn = document.createElement("main");
 
-goBtn.textContent = "Ready!"
-body.appendChild(goBtn);
-goBtn.setAttribute("style", "font-size:25px; text-align:center; font-weight:bold");
+// goBtn.textContent = "Ready!"
+// body.appendChild(goBtn);
+// goBtn.setAttribute("style", "font-size:25px; text-align:center; font-weight:bold");
 
 var correct = 0;
 var wrong = 0;
