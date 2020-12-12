@@ -1,5 +1,14 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h1 {
+      text-align: center;
+  }
+
+  p {
+      margin-left: 80px;
+      margin-right: 80px;
   }
   
   a {
@@ -13,12 +22,15 @@ body {
   }
 
   .container {
-    margin: 120px auto 0 auto;
-    max-width: 400px;
+    margin: 50px auto 0 auto;
   }
 
   .hidden {
     display: none;
+  }
+
+  .button-container {
+      text-align: center;
   }
 
   button {
@@ -28,6 +40,7 @@ body {
     border-radius: 5px;
     color: #000000;
     border: 0;
+    font-size: 110%;
     text-align: center;
     transition: background-color 0.2s;
   }
